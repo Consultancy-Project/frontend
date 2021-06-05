@@ -1,0 +1,6 @@
+<h1>Welcome</h1>
+
+<section>
+  <%# <%=link_to 'Login with Github',  "https://github.com/login/oauth/authorize?client_id=#{ENV['client_id']}", method: :post %> %>
+  <%=link_to 'Login with Github',  "/auth/github", method: :post %>
+</section>
