@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def dashboard
-    @articles = BeService.recent_news
-    @tweets = BeService.recent_tweets
+    @articles = BeFacade.get_news
+    @tweets = BeFacade.get_tweets
   end
 end

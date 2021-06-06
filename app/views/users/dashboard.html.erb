@@ -2,14 +2,14 @@
 <h3>Welcome, <%= current_user.name %></h3>
 
 <section id="news">
-  <% @articles[:data].each do |article| %>
-    <%= article[:attributes][:headline] %>
-    <%= article[:attributes][:url] %>
+  <% @articles.each do |article| %>
+    <%= article.headline %>
+    <%= article.url %>
   <% end %>
 </section>
 
 <section id="twitter">
-  <% @tweets[:data].each do |tweet| %>
-    <%= tweet[:attributes][:tweet] %>
+  <% @tweets.each do |tweet| %>
+    <%= tweet.tweet %>
   <% end %>
 </section>
