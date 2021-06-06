@@ -6,14 +6,13 @@ RSpec.describe 'user dashboard' do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user) unless test.metadata[:logged_out]
   end
 
-  it 'displays three news articles with headlines and links to articles' do
-    visit dashboard_path
-    save_and_open_page
+  xit 'displays three news articles with headlines and links to articles' do
   end
 
   xit 'displays three tweets' do
   end
 
-  xit 'does not allow a user who is not logged in to view page', :logged_out do
+  it 'does not allow a user who is not logged in to view page', :logged_out do
+    expect{ visit dashboard_path }.to raise_error(ActionController::RoutingError)
   end
 end
