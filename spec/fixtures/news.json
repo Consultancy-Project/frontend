@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "6616837",
+      "type": "article",
+      "attributes": {
+        "headline": "El Salvador becomes the world's first country to adopt bitcoin as legal tender",
+        "url": "https://www.cnbc.com/2021/06/05/el-salvador-becomes-the-first-country-to-adopt-bitcoin-as-legal-tender-.html"
+      }
+    },
+    {
+      "id": "6615935",
+      "type": "article",
+      "attributes": {
+        "headline": "This SF couple moved from a studio to a $3,850-per-month luxury 1-bedroom: Why they decided to 'splurge'",
+        "url": "https://www.cnbc.com/2021/06/05/inside-a-3850-per-month-luxury-one-bedroom-apartment-in-san-francisco.html"
+      }
+    },
+    {
+      "id": "6615834",
+      "type": "article",
+      "attributes": {
+        "headline": "NBA's Portland Trail Blazers face mounting concerns after first-round exit and a coaching change",
+        "url": "https://www.cnbc.com/2021/06/05/trail-blazers-face-mounting-concerns-following-playoff-exit-coaching-change.html"
+      }
+    }
+  ]
+}
