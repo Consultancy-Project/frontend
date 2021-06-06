@@ -7,11 +7,11 @@ RSpec.describe 'BE Facade' do
 
       stub_request(:get, "https://localhost:3000/news")
       .with(
-          headers: {
-                    'Accept'=>'*/*',
-                    'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-                    'User-Agent'=>'Faraday v1.4.2'
-                    })
+        headers: {
+                  'Accept'=>'*/*',
+                  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+                  'User-Agent'=>'Faraday v1.4.2'
+                  })
       .to_return(status: 200, body: news_response, headers: {})
       
       articles = BeFacade.get_news
@@ -28,11 +28,11 @@ RSpec.describe 'BE Facade' do
 
       stub_request(:get, "https://localhost:3000/tweets")
       .with(
-          headers: {
-                    'Accept'=>'*/*',
-                    'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-                    'User-Agent'=>'Faraday v1.4.2'
-                    })
+        headers: {
+                  'Accept'=>'*/*',
+                  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+                  'User-Agent'=>'Faraday v1.4.2'
+                  })
       .to_return(status: 200, body: twitter_response, headers: {})
 
       tweets = BeFacade.get_tweets

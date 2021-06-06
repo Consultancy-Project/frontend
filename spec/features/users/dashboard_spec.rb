@@ -10,23 +10,23 @@ RSpec.describe 'user dashboard' do
     news_response = File.read('spec/fixtures/news.json')
     twitter_response = File.read('spec/fixtures/tweets.json')
 
-    stub_request(:get, "https://localhost:3000/tweets").
-         with(
-           headers: {
-          'Accept'=>'*/*',
-          'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-          'User-Agent'=>'Faraday v1.4.2'
-           }).
-         to_return(status: 200, body: twitter_response, headers: {})
+    stub_request(:get, "https://localhost:3000/tweets")
+    .with(
+      headers: {
+                'Accept'=>'*/*',
+                'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+                'User-Agent'=>'Faraday v1.4.2'
+                })
+    .to_return(status: 200, body: twitter_response, headers: {})
 
-    stub_request(:get, "https://localhost:3000/news").
-         with(
-           headers: {
-          'Accept'=>'*/*',
-          'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-          'User-Agent'=>'Faraday v1.4.2'
-           }).
-         to_return(status: 200, body: news_response, headers: {})
+    stub_request(:get, "https://localhost:3000/news")
+    .with(
+      headers: {
+                'Accept'=>'*/*',
+                'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+                'User-Agent'=>'Faraday v1.4.2'
+                })
+    .to_return(status: 200, body: news_response, headers: {})
 
     visit dashboard_path
     
