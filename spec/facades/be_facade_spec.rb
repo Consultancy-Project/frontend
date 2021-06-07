@@ -5,7 +5,7 @@ RSpec.describe 'BE Facade' do
     it 'returns an array of news articles' do
       news_response = File.read('spec/fixtures/news.json')
 
-      stub_request(:get, "https://localhost:3000/news")
+      stub_request(:get, "https://be2102-consultancy-project-be.herokuapp.com/api/v1/news")
       .with(
         headers: {
                   'Accept'=>'*/*',
@@ -19,6 +19,8 @@ RSpec.describe 'BE Facade' do
       expect(articles.class).to eq(Array)
       expect(articles.first.headline).to be_a String
       expect(articles.first.url).to be_a String
+      expect(articles.first.image).to be_a String
+      expect(articles.first.summary).to be_a String
     end
   end
 
@@ -26,7 +28,7 @@ RSpec.describe 'BE Facade' do
     it 'returns an array of news articles' do
       twitter_response = File.read('spec/fixtures/tweets.json')
 
-      stub_request(:get, "https://localhost:3000/tweets")
+      stub_request(:get, "https://be2102-consultancy-project-be.herokuapp.com/api/v1/tweets")
       .with(
         headers: {
                   'Accept'=>'*/*',
@@ -39,6 +41,7 @@ RSpec.describe 'BE Facade' do
 
       expect(tweets.class).to eq(Array)
       expect(tweets.first.tweet).to be_a String
+      expect(tweets.first.username).to be_a String
     end
   end
 end
