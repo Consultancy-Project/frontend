@@ -14,16 +14,23 @@
  *= require_self
  */
 
+
 body {
-  height: 100%;
-  background: linear-gradient(#85BB65, #fff);
+  display: flex;
+  min-height: 100vh;
+  background-image: url("/money_background.png");
+  background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
-  background-attachment: fixed;
+  background-size: cover;  
 }
 
 html {
   height: 100%;
+}
+
+.tagline {
+  font-family: 'Rock Salt', cursive;
+  font-size: 6vw;
 }
 .login {
   position: fixed;

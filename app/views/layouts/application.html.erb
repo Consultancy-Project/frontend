@@ -11,12 +11,19 @@
     <%= javascript_include_tag 'application' %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@200&family=Rock+Salt&display=swap" rel="stylesheet">
 
-  <%= favicon_link_tag asset_path('money.png') %>
+    <%= favicon_link_tag asset_path('money.png') %>
   </head>
 
   <body>
-   <h1>Money News</h1>
+   <h1 class="tagline">Money Talks</h1>
+   <div class="topnav">
+      <a class="active" href="/dashboard">Home</a>
+      <a href="/news">News</a>
+      <a href="/tweets">Tweets</a>
+    </div>
     <%= yield %>
   </body>
 </html>
