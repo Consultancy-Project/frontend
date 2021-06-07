@@ -8,5 +8,7 @@ RSpec.describe 'article poro' do
     expect(article.class).to eq(Article)
     expect(article.headline).to be_a String
     expect(article.url).to be_a String
+    expect(article.image).to be_a String
+    expect(article.summary).to be_a String
   end
 end
