@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get '/news', to: 'users#news'
 
   get '/auth/:provider/callback', to: 'sessions#create'
+  
+  get "/logout", to: "sessions#destroy"
 end
