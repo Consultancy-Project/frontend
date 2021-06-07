@@ -1,1 +1,7 @@
 <h1>Tweets Page</h1>
+
+<section id="twitter">
+  <% @tweets.each do |tweet| %>
+    <%= tweet.tweet %>
+  <% end %>
+</section>
