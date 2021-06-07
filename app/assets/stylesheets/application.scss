@@ -17,6 +17,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background-image: url("/money_background.png");
   background-position: center;
@@ -39,11 +40,10 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.mt-0 {
-  color: green;
+.topnav {
+  background-color: rgba(0,0,0,.75);
+  overflow: hidden;
 }
-
-
 
 
 @import "bootstrap";
