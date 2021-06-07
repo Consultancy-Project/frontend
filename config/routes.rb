@@ -3,5 +3,8 @@ Rails.application.routes.draw do
   root "welcome#index"
 
   get '/dashboard', to: 'users#dashboard'
+  get '/tweets', to: 'users#tweets'
+  get '/news', to: 'users#news'
+
   get '/auth/:provider/callback', to: 'sessions#create'
 end
