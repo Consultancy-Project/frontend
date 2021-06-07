@@ -13,7 +13,7 @@ class BeService
     private 
     
     def conn
-      Faraday.new(url: 'https://localhost:3000/api/v1')
+      Faraday.new(url: 'https://be2102-consultancy-project-be.herokuapp.com/api/v1')
     end
     
     def parse_json(response)
