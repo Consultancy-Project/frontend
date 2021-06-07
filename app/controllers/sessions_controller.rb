@@ -12,6 +12,5 @@ class SessionsController < ApplicationController
   
   def auth_hash_name
     name = request.env['omniauth.auth'][:info][:nickname]
-    name.gsub(' ', '').downcase
   end
 end
