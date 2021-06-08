@@ -1,0 +1,50 @@
+{
+  "data":
+  [
+    {
+      "id": "6626308",
+      "type": "article",
+      "attributes":
+     {
+        "headline":
+       "Salesforce CEO Marc Benioff expects more than half of employees to work from home after the pandemic: 'The past is gone'",
+        "url":
+       "https://www.cnbc.com/2021/06/07/salesforces-benioff-says-50-60percent-of-employees-likely-to-work-from-home.html",
+        "image":
+       "https://image.cnbcfm.com/api/v1/image/106677654-1598387691510-ben.jpg?v=1606745165",
+        "summary":
+       "In an interview on Monday, Salesforce CEO Marc Benioff said that the number of employees working from home will remain high even after the Covid pandemic ends."
+      }
+    },
+    {
+      "id": "6625669",
+      "type": "article",
+      "attributes":
+     {
+        "headline":
+       "AMC's aggressive post-pandemic strategy could pay off as moviegoers flock back to cinemas",
+        "url":
+       "https://www.cnbc.com/2021/06/07/amcs-aggressive-post-pandemic-strategy-could-pay-off.html",
+        "image":
+       "https://image.cnbcfm.com/api/v1/image/106892055-1622752780254-gettyimages-1321178611-dsc02507_2021060111815316.jpeg?v=1622831617",
+        "summary":
+       "AMC's plans to pick-up empty theater locations could pay off as moviegoers return in record numbers."
+      }
+    },
+    {
+      "id": "6625392",
+      "type": "article",
+      "attributes":
+     {
+        "headline":
+       "FDA approves Biogen's Alzheimer's drug, the first new therapy for the disease in nearly two decades",
+        "url":
+       "https://www.cnbc.com/2021/06/07/fda-approves-biogens-alzheimers-drug-the-first-new-therapy-for-the-disease-in-nearly-two-decades.html",
+        "image":
+       "https://image.cnbcfm.com/api/v1/image/106784038-1604668817109-gettyimages-1257986277-0322-nws-bhr-l-biogennc2.jpeg?v=1611925589",
+        "summary":
+       "The drug, which is marketed under the name Aduhelm, is expected to generate billions of dollars in revenue for the company."
+      }
+    }
+  ]
+}
