@@ -2,17 +2,17 @@ require 'rails_helper'
 
 RSpec.describe 'BE Facade' do
   describe 'get_news' do
-    it 'returns an array of news articles' do
-      news_response = File.read('spec/fixtures/news.json')
+    it 'returns an array of news articles', :vcr do
+      # news_response = File.read('spec/fixtures/news.json')
 
-      stub_request(:get, "https://be2102-consultancy-project-be.herokuapp.com/api/v1/news")
-      .with(
-        headers: {
-                  'Accept'=>'*/*',
-                  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-                  'User-Agent'=>'Faraday v1.4.2'
-                  })
-      .to_return(status: 200, body: news_response, headers: {})
+      # stub_request(:get, "https://be2102-consultancy-project-be.herokuapp.com/api/v1/news")
+      # .with(
+      #   headers: {
+      #             'Accept'=>'*/*',
+      #             'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+      #             'User-Agent'=>'Faraday v1.4.2'
+      #             })
+      # .to_return(status: 200, body: news_response, headers: {})
       
       articles = BeFacade.get_news
 

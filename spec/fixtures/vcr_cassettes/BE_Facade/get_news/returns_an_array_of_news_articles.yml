@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://be2102-consultancy-project-be.herokuapp.com/api/v1/news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:08:43 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4eaecc1642edf7dc92d5ebb218594bca"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f937f83f-0392-4ae7-8337-93ff67d4fa1f
+      X-Runtime:
+      - '0.154732'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"6631483","type":"article","attributes":{"headline":"''Nothing
+        changed overnight'' to make Wendy''s a better bet, trader says as stock sees
+        Reddit interest","url":"https://www.cnbc.com/2021/06/08/wendys-joins-gamestop-amc-as-latest-meme-stock-how-to-play-it.html","image":"https://image.cnbcfm.com/api/v1/image/106890904-16225833752021-06-01t204911z_1849495490_rc2trn9o3c13_rtrmadp_0_usa-economy.jpeg?v=1622583570","summary":"Wendy''s
+        shares are at all-time highs as Reddit traders find a new target in the fast-food
+        company, but two traders are steering clear for now."}},{"id":"6631376","type":"article","attributes":{"headline":"Lumber
+        executive sees further relief in sky-high prices, says delaying building projects
+        makes sense","url":"https://www.cnbc.com/2021/06/08/lumber-executive-sees-further-relief-in-sky-high-prices-.html","image":"https://image.cnbcfm.com/api/v1/image/103349725-GettyImages-490651452.jpg?v=1551473169","summary":"Lumber
+        industry veteran Kyle Little said it''s sensible to delay building projects
+        due to high wood costs. \"We do see some relief over the next six to 12 months.\""}},{"id":"6630911","type":"article","attributes":{"headline":"Investors
+        may own GameStop and AMC without even realizing it. Two traders on the risks
+        and rewards","url":"https://www.cnbc.com/2021/06/08/gamestop-amc-stock-why-investors-may-own-them-without-even-realizing.html","image":"https://image.cnbcfm.com/api/v1/image/106891148-16226393092021-06-02t130022z_903991908_rc2dsn9xayk5_rtrmadp_0_usa-stocks-teen-investors.jpeg?v=1622639346","summary":"Nancy
+        Tengler of Laffer Tengler Investments and Ari Wald of Oppenheimer discuss
+        the market influence of AMC and GameStop shares."}}]}'
+  recorded_at: Tue, 08 Jun 2021 20:08:43 GMT
+recorded_with: VCR 6.0.0
