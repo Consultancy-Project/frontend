@@ -21,28 +21,37 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Jun 2021 20:14:50 GMT
+      - Tue, 08 Jun 2021 20:24:41 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"3af7b0b742b52396dbee03bcb6445f1a"
+      - W/"2827cc9778797044c8e645f992fcbc1c"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1c723089-b290-4fa7-89e9-a5bef12d3415
+      - e23171b1-3b6b-4237-8f01-20dfb0846af0
       X-Runtime:
-      - '0.251719'
+      - '0.280678'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"1402358426982887424","type":"tweet","attributes":{"tweet":"My
-        stocks are looking amazing","username":"dankcurlss"}},{"id":"1402358426982887424","type":"tweet","attributes":{"tweet":"My
-        stocks are looking amazing","username":"dankcurlss"}},{"id":"1402358426982887424","type":"tweet","attributes":{"tweet":"My
-        stocks are looking amazing","username":"dankcurlss"}}]}'
-  recorded_at: Tue, 08 Jun 2021 20:14:50 GMT
+      string: '{"data":[{"id":"1402360903526453251","type":"tweet","attributes":{"tweet":"@michhy011
+        No worries. This community we built as apes is something special and CAN''T
+        be broken! Yeah, typical family petty and fighting or throwing some change
+        at other stocks in order to support the bag. Once CLOV dumps, it''ll come
+        full circle\n\n#AMCSTRONG","username":"JaviBaby86"}},{"id":"1402360903526453251","type":"tweet","attributes":{"tweet":"@michhy011
+        No worries. This community we built as apes is something special and CAN''T
+        be broken! Yeah, typical family petty and fighting or throwing some change
+        at other stocks in order to support the bag. Once CLOV dumps, it''ll come
+        full circle\n\n#AMCSTRONG","username":"JaviBaby86"}},{"id":"1402360903526453251","type":"tweet","attributes":{"tweet":"@michhy011
+        No worries. This community we built as apes is something special and CAN''T
+        be broken! Yeah, typical family petty and fighting or throwing some change
+        at other stocks in order to support the bag. Once CLOV dumps, it''ll come
+        full circle\n\n#AMCSTRONG","username":"JaviBaby86"}}]}'
+  recorded_at: Tue, 08 Jun 2021 20:24:42 GMT
 recorded_with: VCR 6.0.0
