@@ -33,7 +33,7 @@ html {
   font-family: 'Rock Salt', cursive;
   font-size:4.5vw;
 }
-.login {
+.github_button, .login {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -87,13 +87,56 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 3vh;
+  border-radius: 13%;
 }
 
-.user_greeting{
+.user_tweet, .user_news, .user_greeting{
+  margin: 2vh;
   font-family: 'Niramit', sans-serif;
-
+  font-size: 3.5vw;
 }
 
+.dollars_cents{
+  font-family: 'Niramit', sans-serif;
+}
+
+.tweet_box, .news_box{
+  background-color: rgba(0,0,0,.75);
+  margin: 2vh;
+  margin-top: 25vh;
+  width: 30vw;
+  height: 30vh;
+  font-family: 'Niramit', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12.5%;
+}
+
+.tweet_page_button, .news_page_button{
+  position: fixed;
+  top: 75%;
+  margin-left: 50%;
+  margin-right: 50%;
+  font-family: 'Niramit', sans-serif;
+  margin-left: 42%;
+}
+
+#twitter, #news{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-right: 19vh;
+  font-family: 'Niramit', sans-serif;
+}
 
 .tweet_button, .news_button, .github_button{
   display: flex;
@@ -107,6 +150,7 @@ html {
   color: white;
   font-size: 1.5vw;
   justify-content: space-around;
+  font-family: 'Niramit', sans-serif;
 }
 
 .github_button:focus{

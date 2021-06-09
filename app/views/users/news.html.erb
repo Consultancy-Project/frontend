@@ -4,9 +4,15 @@
   <a href="/logout">Logout</a>
 </div>
 
+<h1 class="user_news">News for <%= current_user.name %>:</h1>
+
 <section id="news">
   <% @articles.each do |article| %>
-    <%= article.headline %>
-    <%= article.url %>
+    <div class="news_box">
+      <%= article.headline %>
+      <%= link_to "Read The Full Story Here", article.url %>
+    </div>
   <% end %>
 </section>
+
+<button class="news_page_button news_button" ><a class="news" href='/news'>Show me what's next.</a></button>

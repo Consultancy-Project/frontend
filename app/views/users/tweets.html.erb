@@ -4,8 +4,14 @@
   <a href="/logout">Logout</a>
 </div>
 
+<h1 class="user_tweet">Tweets for <%= current_user.name %>:</h1>
+
 <section id="twitter">
   <% @tweets.each do |tweet| %>
+  <div class="tweet_box">
     <%= tweet.tweet %>
+  </div>
   <% end %>
 </section>
+
+<button class="tweet_page_button tweet_button" ><a class="tweet" href='/tweets'>Show me what's next.</a></button>
