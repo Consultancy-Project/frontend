@@ -1,6 +1,12 @@
-<h1>Dashboard</h1>
-<h3>Welcome, <%= current_user.name %></h3>
+<div class="topnav">
+  <a href="/news">News |</a>
+  <a href="/tweets">Tweets |</a>
+  <a href="/logout">Logout</a>
+</div>
+<h1 class="user_greeting">Welcome, <%= current_user.name %>!</h1>
 
-<section class='log-out-button'>
-  <%= link_to 'Log Out', '/logout' %>
-</section>
+
+<div class="nav_buttons">
+  <button class="news_button" ><a class="news" href='/news'>I'd like some news.</a></button>
+  <button class="tweet_button"><a href='/tweets'>Tweets, please!</a></button>
+</div>

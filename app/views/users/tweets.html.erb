@@ -1,7 +1,18 @@
-<h1>Tweets Page</h1>
+<div class="topnav">
+  <a href="/dashboard">Home |</a>
+  <a href="/news">News |</a>
+  <a href="/logout">Logout</a>
+</div>
+
+<h1 class="user_tweet">Tweets for <%= current_user.name %>:</h1>
 
 <section id="twitter">
   <% @tweets.each do |tweet| %>
+  <div class="tweet_box">
+    <%= tweet.tweet %>
+  </div>
     <%= tweet.tweet %><br>
   <% end %>
 </section>
+
+<button class="tweet_page_button tweet_button" ><a class="tweet" href='/tweets'>Show me what's next.</a></button>

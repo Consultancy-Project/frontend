@@ -1,0 +1,166 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("/money_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+html {
+  height: 100%;
+}
+
+.tagline{
+  font-family: 'Rock Salt', cursive;
+  font-size:4.5vw;
+}
+.github_button, .login{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav{
+  font-family: 'Niramit', sans-serif;
+  background-color: rgba(0,0,0,.75);
+  overflow: hidden;
+  text-align: right;
+  height: 4vh;
+  font-size: 1.5vw;
+  padding-right:1vw;
+  font-size:1.5vw;
+}
+
+.topnav a {
+  color: white;
+}
+
+.news_button a {
+  color: white;
+}
+
+.tweet_button a {
+  color: white;
+}
+
+// .topnav a:hover{
+//   text-decoration: none;
+// }
+
+.bi-github{
+  color: white;
+  text-decoration: none;
+}
+
+.nav_buttons{
+  font-family: 'Niramit', sans-serif;
+  background-color: rgba(0,0,0,.75);
+  height: 30vh;
+  width: 20vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vh;
+  border-radius: 13%;
+}
+
+.user_tweet, .user_news, .user_greeting{
+  margin: 2vh;
+  font-family: 'Niramit', sans-serif;
+  font-size: 3.5vw;
+}
+
+.dollars_cents{
+  font-family: 'Niramit', sans-serif;
+}
+
+.tweet_box, .news_box{
+  background-color: rgba(0,0,0,.75);
+  margin: 2vh;
+  margin-top: 25vh;
+  width: 30vw;
+  height: 30vh;
+  font-family: 'Niramit', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12.5%;
+}
+
+.tweet_page_button, .news_page_button{
+  position: fixed;
+  top: 75%;
+  margin-left: 50%;
+  margin-right: 50%;
+  font-family: 'Niramit', sans-serif;
+  margin-left: 42%;
+  margin-top: 10vh;
+}
+
+#twitter, #news{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-right: 19vh;
+  font-family: 'Niramit', sans-serif;
+}
+
+.tweet_button, .news_button, .github_button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  background-color: grey;
+  width: 16vw;
+  height: 9vh;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  justify-content: space-around;
+  font-family: 'Niramit', sans-serif;
+}
+
+.github_button:focus{
+  outline:none;
+  text-decoration: none;
+}
+
+.github_button svg:hover{
+  text-decoration: none;
+}
+
+
+@import "bootstrap";
