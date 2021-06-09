@@ -7,15 +7,14 @@ RSpec.describe 'news page' do
   end
 
   it 'does not allow a user who is not logged in to view page', :logged_out do
-    expect{ visit dashboard_path }.to raise_error(ActionController::RoutingError)
+    expect{ visit news_path }.to raise_error(ActionController::RoutingError)
   end
 
   xit 'does not allow a user who logged out to view the news page' do
     visit dashboard_path
     click_link "Logout"
-    expect(current_path).to eq(dashboard_path)
+    expect(current_path).to eq(root_path)
 
-    visit news_path
-    expect{ visit dashboard_path }.to raise_error(ActionController::RoutingError)
+    expect{ visit news_path }.to raise_error(ActionController::RoutingError)
   end
 end
