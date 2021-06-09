@@ -40,14 +40,13 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.topnav {
+.topnav{
   font-family: 'Niramit', sans-serif;
   background-color: rgba(0,0,0,.75);
   overflow: hidden;
   text-align: right;
   height: 4vh;
   font-size: 1.5vw;
-  vertical-align: middle;  
   padding-right:1vw;
   font-size:1.5vw;
 }
@@ -131,7 +130,7 @@ html {
   color: white;
   display: flex;
   flex-direction: row;
-  height: 80%;
+  height: 60%;
   margin-left: 10vh;
   margin-right: 10vh;
   padding-right: 19vh;
