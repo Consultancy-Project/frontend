@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://be2102-consultancy-project-be.herokuapp.com/api/v1/tweets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:27:21 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5b90a5463d647c5f6b4db323eb5d8060"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 89f08177-4678-4eae-8f5c-160d9729135a
+      X-Runtime:
+      - '0.251831'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjE0MDIzNjE1NTgyNDg5MjcyMzMiLCJ0eXBlIjoidHdlZXQiLCJhdHRyaWJ1dGVzIjp7InR3ZWV0IjoiUlQgQGZyZWV0cmFkZTogQSBzdG9jayBmb3IgYSBwZW5ueSDwn6qZXG5cbklzIGl0IHdvcnRoIGludmVzdGluZyBpbj9cblxuQ2FwaXRhbCBhdCByaXNrXG5cbmh0dHBzOi8vdC5jby9LZWFtOXJicGlEIiwidXNlcm5hbWUiOiJCcnVtbWllSW52ZXN0b3IifX0seyJpZCI6IjE0MDIzNjE1NTgyNDg5MjcyMzMiLCJ0eXBlIjoidHdlZXQiLCJhdHRyaWJ1dGVzIjp7InR3ZWV0IjoiUlQgQGZyZWV0cmFkZTogQSBzdG9jayBmb3IgYSBwZW5ueSDwn6qZXG5cbklzIGl0IHdvcnRoIGludmVzdGluZyBpbj9cblxuQ2FwaXRhbCBhdCByaXNrXG5cbmh0dHBzOi8vdC5jby9LZWFtOXJicGlEIiwidXNlcm5hbWUiOiJCcnVtbWllSW52ZXN0b3IifX0seyJpZCI6IjE0MDIzNjE1NTgyNDg5MjcyMzMiLCJ0eXBlIjoidHdlZXQiLCJhdHRyaWJ1dGVzIjp7InR3ZWV0IjoiUlQgQGZyZWV0cmFkZTogQSBzdG9jayBmb3IgYSBwZW5ueSDwn6qZXG5cbklzIGl0IHdvcnRoIGludmVzdGluZyBpbj9cblxuQ2FwaXRhbCBhdCByaXNrXG5cbmh0dHBzOi8vdC5jby9LZWFtOXJicGlEIiwidXNlcm5hbWUiOiJCcnVtbWllSW52ZXN0b3IifX1dfQ==
+  recorded_at: Tue, 08 Jun 2021 20:27:22 GMT
+recorded_with: VCR 6.0.0

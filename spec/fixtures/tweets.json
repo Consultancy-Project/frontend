@@ -1,30 +1,28 @@
 {
-  "data":
-  [
+  "data": [
     {
-      "id": "1401327438760660996",
+      "id": "1402022831106379777",
       "type": "tweet",
-      "attributes":
-      {
-      "tweet":
-        "it's so crazy that it seems crypto has entirely lost its meaning as a transactional currency and is now basically just stocks 2"
+      "attributes": {
+        "tweet": "@realklutchmamba That's what they say for any stock market strategy. Heck I even do that with my actual stocks",
+        "username": "DaFish456MAGIC"
       }
     },
     {
-      "id": "1401609861314588683",
+      "id": "1402022819320385569",
       "type": "tweet",
-      "attributes":
+      "attributes": {
+        "tweet": "RT @CNBC: SEC says it's monitoring the ongoing volatility in certain stocks, vows to protect retail investors https://t.co/Ph8yJJlPFH",
+        "username": "Joe09973630"
+      }
+    },
     {
-      "tweet":
-        "RT @Callum_Thomas: 8. Value in commodity stocks @jessefelder https://t.co/QvBJlBIYHo"
+      "id": "1402022799259078658",
+      "type": "tweet",
+      "attributes": {
+        "tweet": "@jh_heather Sadly the quarry is exhausted but I have a quantity of Hopton which I am eking out. Buy now, limited stocks, First come first served etc 🤣",
+        "username": "PoorFrankRaw"
+      }
     }
-    },
-    {
-      "id": "1401327433022849024",
-      "type": "tweet",
-      "attributes":
-      {
-      "tweet":
-        "#StockNews #TopStories NYSE V EVP Has Sold Close To $2,948,279 In Stocks: The EVP of NYSE V, Kelly Mahon has reportedly sold close to 12,735 shares of the company stocks in a 2nd June transaction. The average price at which these stocks were sold is… https://t.co/1mRRKiFmg7"
-      }
-}]}
+  ]
+}
