@@ -22,7 +22,7 @@ body {
   background-image: url("/money_background.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover; 
 }
 
 html {
@@ -31,7 +31,7 @@ html {
 
 .tagline {
   font-family: 'Rock Salt', cursive;
-  font-size:4vw;
+  font-size:4.5vw;
 }
 .login {
   position: fixed;
@@ -41,8 +41,81 @@ html {
 }
 
 .topnav {
+  font-family: 'Niramit', sans-serif;
   background-color: rgba(0,0,0,.75);
   overflow: hidden;
+  text-align: right;
+  height: 4vh;
+  font-size: 1.5vw;
+  vertical-align: middle;  
+  padding-right:1vw;
+  font-size:1.5vw;
+}
+
+.topnav a {
+  color: white;
+}
+
+.news_button a {
+  color: white;
+}
+
+.tweet_button a {
+  color: white;
+}
+
+// .topnav a:hover{
+//   text-decoration: none;
+// }
+
+.bi-github{
+  color: white;
+  text-decoration: none;
+}
+
+.nav_buttons{
+  font-family: 'Niramit', sans-serif;
+  background-color: rgba(0,0,0,.75);
+  height: 30vh;
+  width: 20vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vh;
+}
+
+.user_greeting{
+  font-family: 'Niramit', sans-serif;
+
+}
+
+
+.tweet_button, .news_button, .github_button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  background-color: grey;
+  width: 16vw;
+  height: 9vh;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  justify-content: space-around;
+}
+
+.github_button:focus{
+  outline:none;
+  text-decoration: none;
+}
+
+.github_button svg:hover{
+  text-decoration: none;
 }
 
 
