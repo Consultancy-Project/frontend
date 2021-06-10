@@ -15,7 +15,7 @@ The goal of this project is to create a successful web application from a studen
 
   - [Authors](#authors)
   - [Local Setup](#local-setup)
-  - [Front End Repo](#other-repos)
+  - [Back End Repo](#back-end-repo)
   - [Running the tests](#running-the-tests)
   - [Pages](#pages)
   - [Technologies](#technologies)
