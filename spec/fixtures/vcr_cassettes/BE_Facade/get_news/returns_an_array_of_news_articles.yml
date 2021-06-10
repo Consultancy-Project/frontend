@@ -21,37 +21,37 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Tue, 08 Jun 2021 20:27:21 GMT
+      - Thu, 10 Jun 2021 16:01:41 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4eaecc1642edf7dc92d5ebb218594bca"
+      - W/"0dbff042343806575d6442a95a09d5db"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c2df84ee-db5b-45ed-9d34-bf1c33fa7250
+      - ee83a274-000d-45bd-ae03-5f026c7363ca
       X-Runtime:
-      - '0.176299'
+      - '0.158724'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"6631483","type":"article","attributes":{"headline":"''Nothing
-        changed overnight'' to make Wendy''s a better bet, trader says as stock sees
-        Reddit interest","url":"https://www.cnbc.com/2021/06/08/wendys-joins-gamestop-amc-as-latest-meme-stock-how-to-play-it.html","image":"https://image.cnbcfm.com/api/v1/image/106890904-16225833752021-06-01t204911z_1849495490_rc2trn9o3c13_rtrmadp_0_usa-economy.jpeg?v=1622583570","summary":"Wendy''s
-        shares are at all-time highs as Reddit traders find a new target in the fast-food
-        company, but two traders are steering clear for now."}},{"id":"6631376","type":"article","attributes":{"headline":"Lumber
-        executive sees further relief in sky-high prices, says delaying building projects
-        makes sense","url":"https://www.cnbc.com/2021/06/08/lumber-executive-sees-further-relief-in-sky-high-prices-.html","image":"https://image.cnbcfm.com/api/v1/image/103349725-GettyImages-490651452.jpg?v=1551473169","summary":"Lumber
-        industry veteran Kyle Little said it''s sensible to delay building projects
-        due to high wood costs. \"We do see some relief over the next six to 12 months.\""}},{"id":"6630911","type":"article","attributes":{"headline":"Investors
-        may own GameStop and AMC without even realizing it. Two traders on the risks
-        and rewards","url":"https://www.cnbc.com/2021/06/08/gamestop-amc-stock-why-investors-may-own-them-without-even-realizing.html","image":"https://image.cnbcfm.com/api/v1/image/106891148-16226393092021-06-02t130022z_903991908_rc2dsn9xayk5_rtrmadp_0_usa-stocks-teen-investors.jpeg?v=1622639346","summary":"Nancy
-        Tengler of Laffer Tengler Investments and Ari Wald of Oppenheimer discuss
-        the market influence of AMC and GameStop shares."}}]}'
-  recorded_at: Tue, 08 Jun 2021 20:27:22 GMT
+      string: '{"data":[{"id":"6640702","type":"article","attributes":{"headline":"''In
+        the Heights'' is a must-see summer blockbuster that celebrates love, life
+        and community, critics say","url":"https://www.cnbc.com/2021/06/10/in-the-heights-reviews-what-critics-are-saying.html","image":"https://image.cnbcfm.com/api/v1/image/106895036-1623328257070-in_the_heights_Cropped.jpg?v=1623328337","summary":"\"In
+        the Heights\" arrives in theaters and on HBO Max on Thursday. Here''s what
+        critics are saying about the musical adaptation."}},{"id":"6640371","type":"article","attributes":{"headline":"Facing
+        shortage of high-skilled workers, employers are seeking more immigrant talent,
+        study finds","url":"https://www.cnbc.com/2021/06/10/study-employers-seek-immigrants-amid-shortage-of-high-skilled-workers.html","image":"https://image.cnbcfm.com/api/v1/image/106570883-15917159302020-06-08t160011z_2004595697_rc245h9a1vjc_rtrmadp_0_health-coronavirus-usa-new-york.jpeg?v=1623277608","summary":"The
+        U.S. does not have enough high-skilled workers, and employers are seeking
+        immigrant talent to help meet demand, according to a new report."}},{"id":"6640372","type":"article","attributes":{"headline":"As
+        the U.S. faces a flurry of ransomware attacks, experts warn the peak is likely
+        still to come","url":"https://www.cnbc.com/2021/06/10/heres-how-much-ransomware-attacks-are-costing-the-american-economy.html","image":"https://image.cnbcfm.com/api/v1/image/103537634-GettyImages-492752888.jpg?v=1532564143","summary":"Ransomware,
+        a program that hackers use to hold digital information hostage, has become
+        the top choice of malware for criminals."}}]}'
+  recorded_at: Thu, 10 Jun 2021 16:01:41 GMT
 recorded_with: VCR 6.0.0

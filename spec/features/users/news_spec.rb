@@ -10,11 +10,9 @@ RSpec.describe 'news page' do
     expect{ visit news_path }.to raise_error(ActionController::RoutingError)
   end
 
-  xit 'does not allow a user who logged out to view the news page' do
-    visit dashboard_path
+  it 'allows a user to log out', :vcr do
+    visit news_path
     click_link "Logout"
     expect(current_path).to eq(root_path)
-
-    expect{ visit news_path }.to raise_error(ActionController::RoutingError)
   end
 end

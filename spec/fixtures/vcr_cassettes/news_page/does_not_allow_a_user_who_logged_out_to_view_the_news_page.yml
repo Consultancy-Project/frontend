@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://be2102-consultancy-project-be.herokuapp.com/api/v1/news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:03:34 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0dbff042343806575d6442a95a09d5db"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6bb83f1f-6b55-4a1d-88f7-503d054e4ced
+      X-Runtime:
+      - '0.199151'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"6640702","type":"article","attributes":{"headline":"''In
+        the Heights'' is a must-see summer blockbuster that celebrates love, life
+        and community, critics say","url":"https://www.cnbc.com/2021/06/10/in-the-heights-reviews-what-critics-are-saying.html","image":"https://image.cnbcfm.com/api/v1/image/106895036-1623328257070-in_the_heights_Cropped.jpg?v=1623328337","summary":"\"In
+        the Heights\" arrives in theaters and on HBO Max on Thursday. Here''s what
+        critics are saying about the musical adaptation."}},{"id":"6640371","type":"article","attributes":{"headline":"Facing
+        shortage of high-skilled workers, employers are seeking more immigrant talent,
+        study finds","url":"https://www.cnbc.com/2021/06/10/study-employers-seek-immigrants-amid-shortage-of-high-skilled-workers.html","image":"https://image.cnbcfm.com/api/v1/image/106570883-15917159302020-06-08t160011z_2004595697_rc245h9a1vjc_rtrmadp_0_health-coronavirus-usa-new-york.jpeg?v=1623277608","summary":"The
+        U.S. does not have enough high-skilled workers, and employers are seeking
+        immigrant talent to help meet demand, according to a new report."}},{"id":"6640372","type":"article","attributes":{"headline":"As
+        the U.S. faces a flurry of ransomware attacks, experts warn the peak is likely
+        still to come","url":"https://www.cnbc.com/2021/06/10/heres-how-much-ransomware-attacks-are-costing-the-american-economy.html","image":"https://image.cnbcfm.com/api/v1/image/103537634-GettyImages-492752888.jpg?v=1532564143","summary":"Ransomware,
+        a program that hackers use to hold digital information hostage, has become
+        the top choice of malware for criminals."}}]}'
+  recorded_at: Thu, 10 Jun 2021 16:03:35 GMT
+- request:
+    method: get
+    uri: https://be2102-consultancy-project-be.herokuapp.com/api/v1/news
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:03:35 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0dbff042343806575d6442a95a09d5db"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 07d0e266-e5b5-402c-8bfb-aea9b9c34e94
+      X-Runtime:
+      - '0.226140'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"6640702","type":"article","attributes":{"headline":"''In
+        the Heights'' is a must-see summer blockbuster that celebrates love, life
+        and community, critics say","url":"https://www.cnbc.com/2021/06/10/in-the-heights-reviews-what-critics-are-saying.html","image":"https://image.cnbcfm.com/api/v1/image/106895036-1623328257070-in_the_heights_Cropped.jpg?v=1623328337","summary":"\"In
+        the Heights\" arrives in theaters and on HBO Max on Thursday. Here''s what
+        critics are saying about the musical adaptation."}},{"id":"6640371","type":"article","attributes":{"headline":"Facing
+        shortage of high-skilled workers, employers are seeking more immigrant talent,
+        study finds","url":"https://www.cnbc.com/2021/06/10/study-employers-seek-immigrants-amid-shortage-of-high-skilled-workers.html","image":"https://image.cnbcfm.com/api/v1/image/106570883-15917159302020-06-08t160011z_2004595697_rc245h9a1vjc_rtrmadp_0_health-coronavirus-usa-new-york.jpeg?v=1623277608","summary":"The
+        U.S. does not have enough high-skilled workers, and employers are seeking
+        immigrant talent to help meet demand, according to a new report."}},{"id":"6640372","type":"article","attributes":{"headline":"As
+        the U.S. faces a flurry of ransomware attacks, experts warn the peak is likely
+        still to come","url":"https://www.cnbc.com/2021/06/10/heres-how-much-ransomware-attacks-are-costing-the-american-economy.html","image":"https://image.cnbcfm.com/api/v1/image/103537634-GettyImages-492752888.jpg?v=1532564143","summary":"Ransomware,
+        a program that hackers use to hold digital information hostage, has become
+        the top choice of malware for criminals."}}]}'
+  recorded_at: Thu, 10 Jun 2021 16:03:35 GMT
+recorded_with: VCR 6.0.0

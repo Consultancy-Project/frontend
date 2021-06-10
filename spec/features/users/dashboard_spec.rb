@@ -10,11 +10,9 @@ RSpec.describe 'user dashboard' do
     expect{ visit dashboard_path }.to raise_error(ActionController::RoutingError)
   end
 
-  xit 'does not allow a user who logged out to view the dashboard' do
+  it 'allows a user to log out' do
     visit dashboard_path
     click_link "Logout"
     expect(current_path).to eq(root_path)
-
-    expect{ visit dashboard_path }.to raise_error(ActionController::RoutingError)
   end
 end

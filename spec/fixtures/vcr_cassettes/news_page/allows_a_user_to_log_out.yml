@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 16:01:42 GMT
+      - Thu, 10 Jun 2021 16:11:48 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -31,9 +31,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 436e5b46-4d2d-4c7e-9104-f1e02de9bd58
+      - f0339307-cced-40b2-bdbb-36fbc24cdebf
       X-Runtime:
-      - '0.156710'
+      - '0.351460'
       Transfer-Encoding:
       - chunked
       Via:
@@ -53,5 +53,5 @@ http_interactions:
         still to come","url":"https://www.cnbc.com/2021/06/10/heres-how-much-ransomware-attacks-are-costing-the-american-economy.html","image":"https://image.cnbcfm.com/api/v1/image/103537634-GettyImages-492752888.jpg?v=1532564143","summary":"Ransomware,
         a program that hackers use to hold digital information hostage, has become
         the top choice of malware for criminals."}}]}'
-  recorded_at: Thu, 10 Jun 2021 16:01:42 GMT
+  recorded_at: Thu, 10 Jun 2021 16:11:48 GMT
 recorded_with: VCR 6.0.0

@@ -10,11 +10,9 @@ RSpec.describe 'twitter page' do
     expect{ visit tweets_path }.to raise_error(ActionController::RoutingError)
   end
 
-  xit 'does not allow a user who logged out to view the twitter page' do
-    visit dashboard_path
+  it 'allows a user log out', :vcr do
+    visit tweets_path
     click_link "Logout"
     expect(current_path).to eq(root_path)
-
-    expect{ visit tweets_path }.to raise_error(ActionController::RoutingError)
   end
 end
